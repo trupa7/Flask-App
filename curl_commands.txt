@@ -1,0 +1,17 @@
+# get response without accept header
+curl -i -X GET http://127.0.0.1:5000
+
+# get response with  accept header
+curl -i -H "Accept: application/json" -X GET http://127.0.0.1:5000
+
+# get response with  accept header but not application/json
+curl -i -H "Accept: application/javascript" -X GET http://127.0.0.1:5000
+
+# post response with out accept header
+curl -i -X POST http://127.0.0.1:5000
+
+# post response with  accept header
+curl -i -H "Accept: application/json" -X POST http://127.0.0.1:5000
+
+# get response with  accept header  but not application/json
+curl -i -H "Accept: application/javascript" -X POST http://127.0.0.1:5000

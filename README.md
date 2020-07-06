@@ -3,8 +3,17 @@ A basic “Hello World” API
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Make sure you have install [python3](https://www.python.org/downloads/)
+
+Check Python version
+```bash
+python --version
+```
+
+##Installing pip
+
+##Windows
 
 ```bash
-pip install -r requirements.txt
+py -m pip install --upgrade pip
 ```
