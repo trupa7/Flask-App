@@ -119,3 +119,9 @@ Clt+ c
 ```bash
 python unit_test.py
 ```
+
+## Activating a virtual environment
+
+```bash
+deactivate
+```
