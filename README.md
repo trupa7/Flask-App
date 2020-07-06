@@ -66,11 +66,17 @@ On Windows:
 pip install requirements
 ```
 
-## A command to start the application
+#### <i class="icon-refresh"></i> If you want to enable Logging please edit app.py and make following change
+```python
+log.disabled = False
+```
+
+## A command to start the application (HTTP endpoint)
 #### <i class="icon-refresh"></i> Run this code in virtual environment
 ```bash
 python app.py
 ```
+
 
 #### <i class="icon-refresh"></i> Open new cmd command terminal and test following cURL commands
 
