@@ -99,7 +99,7 @@ post response with  accept header
 curl -i -H "Accept: application/json" -X POST http://127.0.0.1:5000
 ```
 
-get response with  accept header  but not application/json
+post response with  accept header  but not application/json
 ```bash
 curl -i -H "Accept: application/javascript" -X POST http://127.0.0.1:5000
 ```
