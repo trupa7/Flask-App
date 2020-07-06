@@ -35,6 +35,7 @@ def index():
         elif header_key == "Accept" and header_value != "*/*":
             raise BadRequest('Invalid Header Found!')
 
+
     # If the request does not send an Accept header
     return "<p>Hello, World<p>"
 

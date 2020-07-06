@@ -97,7 +97,7 @@ get response with  accept header but not application/json
 curl -i -H "Accept: application/javascript" -X GET http://127.0.0.1:5000
 ```
 
-post response with out accept header
+post response without accept header
 ```bash
 curl -i -X POST http://127.0.0.1:5000
 ```
