@@ -125,7 +125,7 @@ Clt+ c
 
 #### <i class="icon-refresh"></i> A command to run the unit tests for your application
 ```bash
-python unit_test.py
+python test_app.py
 ```
 
 ## Leaving the virtual environment¶
