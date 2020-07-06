@@ -63,7 +63,7 @@ On Windows:
 ## Install  requirements
 #### <i class="icon-refresh"></i> After activating python3 virtual please Install python packages
 ```bash
-pip install requirements
+pip install -r requirements.txt
 ```
 
 ## Logging
