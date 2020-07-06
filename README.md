@@ -66,6 +66,7 @@ On Windows:
 pip install requirements
 ```
 
+## Logging
 #### <i class="icon-refresh"></i> If you want to enable Logging please edit app.py and make following change
 ```python
 log.disabled = False
@@ -77,8 +78,9 @@ log.disabled = False
 python app.py
 ```
 
+## Testing
 
-#### <i class="icon-refresh"></i> Open new cmd command terminal and test following cURL commands
+#### <i class="icon-refresh"></i> Open new cmd  terminal and test following cURL commands
 
 get response without accept header
 ```bash
