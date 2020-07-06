@@ -61,22 +61,23 @@ On Windows:
 ```
 
 ## Install  requirements
-• After activating python3 virtual please Install python packages
+#### <i class="icon-refresh"></i> After activating python3 virtual please Install python packages
 ```bash
 pip install requirements
 ```
 
 ## A command to start the application
-run this code in virtual environment
+#### <i class="icon-refresh"></i> Run this code in virtual environment
 ```bash
 python app.py
 ```
 
-Open new cmd command terminal and test following cURL commands
+#### <i class="icon-refresh"></i> Open new cmd command terminal and test following cURL commands
 
 get response without accept header
 ```bash
 curl -i -X GET http://127.0.0.1:5000
+```
 
 get response with  accept header
 ```bash
@@ -104,7 +105,7 @@ curl -i -H "Accept: application/javascript" -X POST http://127.0.0.1:5000
 ```
 
 
-stop running code first for unit tests
+#### <i class="icon-refresh"></i> stop running code first for unit tests
 On macOS and Linux:
 ```bash
 command + c
@@ -114,7 +115,7 @@ On Windows:
 Clt+ c
 ```
 
-A command to run the unit tests for your application
+#### <i class="icon-refresh"></i> A command to run the unit tests for your application
 ```bash
 python unit_test.py
 ```
