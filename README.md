@@ -120,7 +120,7 @@ Clt+ c
 python unit_test.py
 ```
 
-## Activating a virtual environment
+## Leaving the virtual environment¶
 
 ```bash
 deactivate
